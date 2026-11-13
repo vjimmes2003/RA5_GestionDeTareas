@@ -1,7 +1,13 @@
 import java.sql.SQLOutput;
 
+
+
+/*
+* Toda la documentación debe aparecer aquí.
+* */
 public class Tarea {
     // Atributos: Datos de cada tarea.
+    // esto es un comentario
     private String nombre;
     private String asignatura;
     private boolean completada;
@@ -18,6 +24,6 @@ public class Tarea {
     }
     // Metodo para mostrar los datos de la tarea
     public void mostrarTarea(){
-        System.out.println(nombre + " " + asignatura);
+        System.out.printf("%nNombre: %s%nAsignatura: %s",nombre,asignatura);
     }
 }
