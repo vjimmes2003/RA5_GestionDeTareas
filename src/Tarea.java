@@ -18,6 +18,6 @@ public class Tarea {
     }
     // Metodo para mostrar los datos de la tarea
     public void mostrarTarea(){
-        System.out.println(nombre + " " + asignatura);
+        System.out.printf("%nNombre: %s%nAsignatura: %s",nombre,asignatura);
     }
 }
